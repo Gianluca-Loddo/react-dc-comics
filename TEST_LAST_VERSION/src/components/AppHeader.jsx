@@ -6,4 +6,6 @@ export default function AppHeader() {
         <div className="container">
           <img src={DcLogo} alt="DC Logo" />
         </div>
-    </header>>
+    </header>
+
+  )}
