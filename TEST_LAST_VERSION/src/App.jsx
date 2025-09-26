@@ -5,8 +5,7 @@ import '@fontsource-variable/roboto';
 
 import AppHeader from './components/AppHeader';
 
-import ComicsData from './data/comics.js';
-import AppCARD from './components/AppCARD';
+
 
 import AppMain from './components/AppMain';
 
@@ -20,16 +19,8 @@ function App() {
     <>
 
       <AppHeader />
-
-      {ComicsData.map((comic) => (
-        <AppCARD
-          key={comic.id}
-          thumb={comic.thumb}
-          series={comic.series}
-        />
-      ))}
-
       <AppMain />
+    
 
     </>
   )

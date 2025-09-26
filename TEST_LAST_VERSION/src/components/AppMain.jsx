@@ -4,6 +4,12 @@ import BuyComicsSubscriptions from '../assets/img/buy-comics-subscriptions.png';
 import BuyComicsShopLocator from '../assets/img/buy-comics-shop-locator.png';
 import DcPowerVisa from '../assets/img/buy-dc-power-visa.svg';
 
+
+import ComicsData from '../data/comics.js';
+import AppCARD from './AppCARD';
+
+
+
 export default function AppMain() {
     return (
         <main>
@@ -13,6 +19,24 @@ export default function AppMain() {
 
             {/*BLACK BANNER*/}
             <div className='bg-dark'>
+                <div className="container">
+                    BLACK BANNER
+                </div>
+            </div>
+
+            {/*COMICS CARDS*/}
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        {ComicsData.map((comic) => (
+                            <AppCARD
+                                key={comic.id}
+                                thumb={comic.thumb}
+                                series={comic.series}
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
 
             {/*BLUE BANNER*/}
@@ -42,6 +66,7 @@ export default function AppMain() {
                     </div>
                 </div>
             </div>
+
 
 
         </main>
