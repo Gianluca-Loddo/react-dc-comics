@@ -7,12 +7,10 @@
 
 
 /* FONT FAMILY */
-
 /* importo il font dopo averlo installato con il comando:
    npm install @fontsource-variable/roboto 
    ed averlo importato in APP.jsx*/
-
-body {
+.body {
   font-family: 'Roboto Variable', sans-serif;
 }
 

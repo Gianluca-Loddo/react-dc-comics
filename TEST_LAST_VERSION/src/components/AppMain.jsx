@@ -27,7 +27,7 @@ export default function AppMain() {
             {/*COMICS CARDS*/}
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-2">
                         {ComicsData.map((comic) => (
                             <AppCARD
                                 key={comic.id}
@@ -66,9 +66,6 @@ export default function AppMain() {
                     </div>
                 </div>
             </div>
-
-
-
         </main>
     );
 }
