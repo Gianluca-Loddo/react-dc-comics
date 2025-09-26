@@ -15,3 +15,17 @@
 body {
   font-family: 'Roboto Variable', sans-serif;
 }
+
+
+/* background APPMain */
+.background-main {
+  background-color: #0282f9;
+}
+
+/* STILE JUMBOTRON */
+.jumbotron {
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+}

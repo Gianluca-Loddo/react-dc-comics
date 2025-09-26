@@ -5,7 +5,7 @@ import '@fontsource-variable/roboto';
 
 import AppHeader from './components/AppHeader';
 
-
+import AppMain from './components/AppMain';
 
 
 
@@ -17,7 +17,8 @@ function App() {
     <>
 
       <AppHeader />
-      
+      <AppMain />
+
     </>
   )
 }

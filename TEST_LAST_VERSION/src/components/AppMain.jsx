@@ -2,32 +2,48 @@ import BuyComicsDigitalComics from '../assets/img/buy-comics-digital-comics.png'
 import BuyComicsMerchandise from '../assets/img/buy-comics-merchandise.png';
 import BuyComicsSubscriptions from '../assets/img/buy-comics-subscriptions.png';
 import BuyComicsShopLocator from '../assets/img/buy-comics-shop-locator.png';
-import DcPowerVisa from '../assets/img/dc-power-visa.svg';
+import DcPowerVisa from '../assets/img/buy-dc-power-visa.svg';
 
 export default function AppMain() {
     return (
         <main>
+            {/*JUMBOTRON*/}
+            <div className="jumbotron">
+            </div>
 
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <img src={BuyComicsDigitalComics} alt="Buy Comics Digital Comics" />
-                    </div>
-                    <div className="col">
-                        <img src={BuyComicsMerchandise} alt="Buy Comics Merchandise" />
-                    </div>
+            {/*BLACK BANNER*/}
+            <div className='bg-dark'>
+            </div>
 
-                    <div>
-                        <img src={BuyComicsSubscriptions} alt="Buy Comics Subscriptions" />
-                    </div>
-                    <div className="col">
-                        <img src={BuyComicsShopLocator} alt="Buy Comics Shop Locator" />
-                    </div>
-                    <div>
-                        <img src={DcPowerVisa} alt="DC Power Visa" />
+            {/*BLUE BANNER*/}
+            <div className='background-main'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <img src={BuyComicsDigitalComics} alt="Buy Comics Digital Comics" />
+                            <a href="#">DIGITAL COMICS</a>
+                        </div>
+                        <div className="col">
+                            <img src={BuyComicsMerchandise} alt="Buy Comics Merchandise" />
+                            <a href="#">DC MERCHANDISE</a>
+                        </div>
+                        <div className="col">
+                            <img src={BuyComicsSubscriptions} alt="Buy Comics Subscriptions" />
+                            <a href="#">SUBSCRIPTION</a>
+                        </div>
+                        <div className="col">
+                            <img src={BuyComicsShopLocator} alt="Buy Comics Shop Locator" />
+                            <a href="#">COMIC SHOP LOCATOR</a>
+                        </div>
+                        <div className="col">
+                            <img src={DcPowerVisa} alt="DC Power Visa" />
+                            <a href="#">DC POWER VISA</a>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
         </main>
     );
 }
