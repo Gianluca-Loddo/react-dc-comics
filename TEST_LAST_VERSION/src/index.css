@@ -27,3 +27,13 @@
   background-position: center;
   height: 480px;
 }
+
+
+/*STILE FOOTER*/
+.backgroundImgFooter {
+  background-image: url("./assets/img/dc-logo-bg.png"), url("./assets/img/footer-bg.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 80%, center;
+  background-size: 730px, cover;
+
+}

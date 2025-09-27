@@ -1,7 +1,18 @@
 export default function AppFooter() {
 
-return ()
+return (
+
+<footer>
+    <div className="backgroundImgFooter">
 
 
 
-}
+
+
+
+
+    </div>
+</footer>
+
+
+)}
