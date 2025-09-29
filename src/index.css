@@ -31,9 +31,8 @@
 
 /*STILE FOOTER*/
 .backgroundImgFooter {
-  background-image: url("./assets/img/dc-logo-bg.png"), url("./assets/img/footer-bg.jpg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: 80%, center;
-  background-size: 730px, cover;
-
+  background-image: url("./assets/img/dc-logo-bg.png"), url("./assets/img/footer-bg.jpg"); /*aggiungo due immagini di sfondo*/
+  background-repeat: no-repeat, no-repeat; /*imposto che nessuna delle due immagini si ripeta*/
+  background-position: 80%, center; /*posiziono la prima immagine al 80% da sinistra e la seconda al centro*/
+  background-size: 730px, cover; /*imposto la dimensione della prima immagine a 730px e la seconda a cover*/
 }

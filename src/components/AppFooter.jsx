@@ -7,6 +7,7 @@ return (
         <div className="container"> {/*bootstrap riconosce container*/}
             <div className="row">
                 <div className="col">
+                    
 
 
                 </div>
